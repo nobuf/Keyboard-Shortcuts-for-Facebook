@@ -10,11 +10,11 @@ http://zuzara.com/pub/keyboard-shortcuts-for-facebook-0.1.crx
 
 Simply open facebook.com then type:
 
--`j`: down one item on your News Feed
+- `j`: down one item on your News Feed
 
--`k`: up
+- `k`: up
 
--`u`: jump to the top
+- `u`: jump to the top
 
 ## License ##
 
@@ -22,11 +22,11 @@ This extension is released under the MIT License.
 
 ## Thanks! ##
 
--http://findicons.com/icon/17061/keyboard?id=17061
+- http://findicons.com/icon/17061/keyboard?id=17061
 
--https://github.com/marquete/kibo
+- https://github.com/marquete/kibo
 
--http://jquery.com/
+- http://jquery.com/
 
 ## Feedback ##
 
