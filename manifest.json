@@ -1,0 +1,19 @@
+{
+  "name": "Keyboard Shortcuts for Facebook",
+  "version": "0.1",
+  "description": "Provide keyboard shortcuts for Facebook",
+  "icons": { "16": "icon128.png",
+             "48": "icon128.png",
+            "128": "icon128.png"
+  },
+  "browser_action": {
+      "default_title": "Keyboard Shortcuts for Facebook",
+      "default_icon": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://www.facebook.com/*", "https://www.facebook.com/*"],
+      "js": ["jquery-1.6.4.min.js", "kibo.js", "script.js"]
+    }
+  ]
+}
