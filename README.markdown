@@ -22,9 +22,11 @@ This extension is released under the MIT License.
 
 ## Thanks! ##
 
-http://findicons.com/icon/17061/keyboard?id=17061
-https://github.com/marquete/kibo
-http://jquery.com/
+-http://findicons.com/icon/17061/keyboard?id=17061
+
+-https://github.com/marquete/kibo
+
+-http://jquery.com/
 
 ## Feedback ##
 

@@ -8,32 +8,32 @@ $(document).ready(function(){
     };
     var doScroll = function(){
         var $li = $('#home_stream li.uiUnifiedStory:eq(' + cur + ')');
-        if (!$li) {
+        if ($li.length === 0) {
             cur = 0;
             return;
         }
         $(window).scrollTop($li.offset().top-blueBarHeight);
     };
-    k.up('j', function(){
+    k.up(['j', 'k', 'u'], function(){
         if (isFocus()) {
             return true;
         }
-        cur++;
-        doScroll();
-    }).up('k', function(){
-        if (isFocus()) {
-            return true;
+        switch (k.lastKey()) {
+            case 'j':
+                cur++;
+                break;
+            case 'k':
+                if (cur <= 0) {
+                    return;
+                }
+                cur--;
+                break;
+            case 'u':
+                cur = 0;
+                break;
+            default:
+                break;
         }
-        if (cur <= 0) {
-            return;
-        }
-        cur--;
-        doScroll();
-    }).up('u', function(){
-        if (isFocus()) {
-            return true;
-        }
-        cur = 0;
         doScroll();
     });
 });
