@@ -4,7 +4,7 @@ This Chrome Extension provides Gmail like keyboard shortcuts for Facebook.
 
 ## Download ##
 
-http://zuzara.com/pub/keyboard-shortcuts-for-facebook-0.1.crx
+https://chrome.google.com/webstore/detail/bjfnkbhnmhblmehgnnjglihlgcoiladc
 
 ## Usage ##
 
